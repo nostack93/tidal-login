@@ -1,0 +1,308 @@
+html {
+  background: linear-gradient(215deg, #171d26 15%, #000 85%) no-repeat 50% fixed;
+  background-color: #000;
+  margin: auto;
+  font-family: "Lexend", system-ui;
+}
+
+.body {
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Lexend", system-ui;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.social-text {
+  width: 100%;
+  flex-grow: 1;
+  justify-self: center;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #1c2026;
+  margin: 0 auto;
+  border-radius: 5px;
+  max-width: 350px;
+}
+
+.footer-logo {
+  fill: #9d9da4;
+  width: 24px;
+  height: 24px;
+}
+
+.uname {
+  text-align: left;
+  width: 100%;
+}
+
+.username:focus {
+  outline: none;
+  border-bottom: 1px solid #dfd21c;
+}
+.button-submit:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  padding: 65px 0 24px 0;
+  margin: 0;
+  font-size: 26px;
+}
+
+.divider {
+  text-align: center;
+  background-color: #1e1e1f;
+  height: 1px;
+  margin: 0 24px;
+}
+
+.uppertxt {
+  padding: 72px 48px 24px 48px;
+  text-align: center;
+}
+
+.username {
+  background-color: #1c2026;
+  color: #ddddde;
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  padding-bottom: 12px;
+  border: 0;
+  border-bottom: 1px solid #303036;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.email-title {
+  margin: 0;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.button-submit {
+  width: 100%;
+  font-family: "Lexend", system-ui;
+  font-weight: 400;
+  background-color: #77797c;
+  border-radius: 15px;
+  padding: 16px 0;
+  font-size: 16px;
+  border: 0;
+}
+
+::placeholder {
+  font-family: "Lexend", system-ui;
+}
+
+.or {
+  font-weight: 200;
+  font-size: 12px;
+}
+#apple,
+#google,
+#x,
+#facebook {
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1c2026;
+  border: 1px solid #ddddde;
+  transition: background-color 0.2s ease;
+  font-family: "Lexend", system-ui;
+}
+
+#apple:hover,
+#google:hover,
+#x:hover,
+#facebook:hover {
+  background-color: rgb(60, 63, 68);
+}
+
+.button-id {
+  color: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.chappel {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: whitesmoke;
+  border-bottom: 1px solid #ffffff;
+}
+
+.lang-txt {
+  margin-bottom: 5px;
+  display: contents;
+  justify-content: space-between;
+}
+
+.dropbtn {
+  background-color: #161618;
+  color: white;
+  font-size: 16px;
+  width: 120px;
+  padding: 12px;
+  border: 1px solid rgb(47, 47, 52);
+  border-radius: 5px;
+  margin-left: 24px;
+  transition: background-color 0.2s ease;
+  font-family: "Lexend", system-ui;
+}
+
+.dropbtn:hover {
+  background-color: rgb(36, 36, 41);
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(36, 36, 41);
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: aliceblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-bottom: 0.5px solid rgb(47, 47, 52);
+  display: block;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.dropup-content a:hover {
+  background-color: rgb(36, 36, 41);
+  color: aqua;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+  font-size: small;
+  padding: 0 24px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.foot-logo {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #9d9da4;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 300;
+  margin: auto 0;
+}
+
+.cotinue {
+  font-family: "Lexend", system-ui;
+}
+
+@media only screen and (max-width: 1000px) {
+  .divider {
+    border: 0px;
+  }
+  body {
+    padding: 10px;
+    margin: 3px;
+    width: auto;
+  }
+
+  .footer-links {
+    align-items: start;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    align-items: start;
+    font-size: 12px;
+    color: white;
+    font-size: small;
+  }
+  .chappel {
+    line-height: 26px;
+    width: 150px;
+    flex-direction: column;
+    column-width: 150px;
+    column-count: 7;
+    flex-wrap: wrap;
+  }
+
+  .dropup {
+    margin-top: 15px;
+  }
+
+  .dropbtn {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .box {
+    padding: 24px;
+  }
+}
